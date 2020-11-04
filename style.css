@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+}
+#tim{
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;     
+}
+.outer{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: table;
+    background: linear-gradient(red 0%, blue 100%);
+}
+.inner{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+    color: white
+}
+.menu{
+    list-style: none;
+    top:10px;
+    right:50px;
+    position: absolute;
+    z-index: 10;
+}
+.link{
+    float: left;
+    color:white;
+    padding-left: 10px;
+}
+h2{
+    font-family: 'Itim', cursive;
+
+}
