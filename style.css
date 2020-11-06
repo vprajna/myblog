@@ -31,11 +31,17 @@ body{
     right:50px;
     position: absolute;
     z-index: 10;
+    cursor: pointer;
 }
 .link{
     float: left;
     color:white;
     padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.link:hover{
+    background-color: aqua
 }
 h2{
     font-family: 'Itim', cursive;
