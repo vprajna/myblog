@@ -1,54 +1,54 @@
-body{
+body
+{
     text-align: center;
-    padding-top: 800px;
 }
-#tim{
-    width: 175px;
-    border-radius: 50%;
-    margin-bottom: 50px;     
-}
-.outer{
-    position: absolute;
-    overflow: hidden;
-    height: 800px;
-    top: 0;
+#welcome {
+    color: #FFFFFF;
     bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display: table;
-    background: linear-gradient(red 0%, blue 100%);
-}
-.inner{
-    display: table-cell;
-    position: relative;
-    vertical-align: middle;
-    color: white
-}
-.menu{
-    top:0px;
-    position:fixed;
-    z-index: 10;
-    cursor: pointer;
-    background: white;
     width: 100%;
-    margin-top: 0;
+    height: 100%;
+    z-index: 9;
 }
-.link{
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+#contact iframe
+{
+    width: 100%;
+}
+.contact_1 h3
+{
     display: inline;
-    color:white;
-    padding-left: 10px;
-    text-transform: uppercase;
-    font-size: 20px;
 }
-.link:hover{
-    font-size: 25px;    
+.contact_1 a
+{
+    text-shadow: none;
 }
-h2{
-    font-family: 'Itim', cursive;
+
+
+#videos iframe
+{
+    width: 80%;
 }
-a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Itim', cursive;
+
+
+input
+{
+    background: grey;
 }

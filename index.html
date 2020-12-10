@@ -1,99 +1,139 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>
-        Sir Tim Berners Lee
-    </title>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Sir Tim Berners-Lee</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
-    <center>
-        <ul class="menu">
-            <li class="link">
-                <a href="#welcome">Home</a>
-            </li>
-            <li class="link">
-                <a href="#work">
-                    Work
-                </a>
-            </li>
-            <li class="link">
-                <a href="#videos">videos</a>
-            </li>
-            <li class="link">
-                <a href="#writing">writing</a>
-            </li>
-            <li class="link">
-                <a href="#contact"> CONTACT</a>
-            </li>
-        </ul>
-    </center>
-    <section id="welcome" class="outer">
-        <div class="inner">
-            <img src="Sir_Tim_Berners-Lee_(cropped).jpg" id="tim" />
-            <h1>
-                I am <br>Tim Berners Lee
-            </h1>
-            <h2>
-                I am the founder of WWW : World Wide Web
-            </h2>
-        </div>
-    </section>
-    <section id="bio">
-        <h1>
-            About
-        </h1>
-        <p>
-            Sir Timothy John Berners-Lee OM KBE FRS FREng FRSA FBCS (born 8 June 1955),[1] also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web. He is a Professorial Fellow of Computer Science at the University of Oxford[2] and a professor at the Massachusetts Institute of Technology (MIT).[3][4] Berners-Lee proposed an information management system on 12 March 1989,[5][6] then implemented the first successful communication between a Hypertext Transfer Protocol (HTTP) client and server via the internet in mid-November.
-        </p>
-    </section>
-    <section id="videos">
-        <h1>
-            Videos
-        </h1>
-        <iframe width="80%" height="500" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br><br>
-        <iframe width="80%" height="500" src="https://www.youtube.com/embed/rCplocVemjo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section id="work">
-        <h1>
-            Work
-        </h1>
-        <iframe width="80%" height="500" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research">
-        </iframe>
-    </section>
-    <section id=writing>
-        <h1>
-            Writing
-        </h1>
-        <a href="https://webfoundation.org/2019/03/web-birthday-30/" target="_blank">
-            30 year on,whats next
-        </a>
-        <br>
-        <br>
-        <a href="https://www.w3.org/People/Berners-Lee/Publications.html" target="_blank">
-            Publications of Tim Berners-Lee
-        </a>
-    </section>
-    <section id="contact">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d983.8853492904037!2d77.79164372916313!3d9.461549222437144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06ceffce8dab0f%3A0x9e4ad9ef16f4b772!2sParasakthi%20Colony%2C%20Sivakasi%2C%20Tamil%20Nadu%20626123!5e0!3m2!1sen!2sin!4v1605082238940!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <div>
-        <a href="">
-            <i class="fa fa-envelope"></i>
-            prajnavignesh@gmail.com
-            </a>
-            <br/>
-            <br/>
-            <a href="">
-                <i class="fa fa-facebook-official" aria-hidden="true"></i>&nbsp;&nbsp;
-            facebook.com
-            </a>
-        </div>
-    </section>
-</body>
 
-</html>
+    <!--
+Navigation bar code here
+-->
+    <nav class="navbar-inverse">
+        <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+            <span class="icon-bar">
+            
+            </span>
+            <span class="icon-bar">
+            
+            </span>
+            <span class="icon-bar">
+            
+            </span>
+            </button><a class="navbar-brand" href="#">Prajna </a>
+        </div>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav">
+                <li class="link">
+                    <a href="#welcome">Home</a>
+                </li>
+                <li class="link">
+                    <a href="#work">
+                        Work
+                    </a>
+                </li>
+                <li class="link">
+                    <a href="#videos">videos</a>
+                </li>
+                <li class="link">
+                    <a href="writing">writing</a>
+                </li>
+                <li class="link">
+                    <a> CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="welcome">
+        <img src="stbl.jpg" class="profile img-circle">
+        <h1>I Am
+            <br>
+            <span id="name">Tim Berners-Lee</span>
+        </h1>
+        <h2> I am the founder of www: World Wide Web</h2>
+    </section>
+
+
+    <section id="bio">
+        <h1>Hi!</h1>
+        <div class="line"></div>
+        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.
+
+            He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
+
+            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br><br>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.
+
+            In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users.
+
+            The Web was first used for e-commerce in 1997.</p>
+    </section>
+
+    <hr>
+    <section id="videos">
+        <h1>Videos</h1>
+        <div class="line"></div>
+        <br>
+        <iframe src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1" height="500"> </iframe>
+        <br>
+        <br>
+
+        <iframe height="500" src="https://www.youtube.com/embed/J8hzJxb0rpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video2"></iframe>
+    </section>
+
+    <hr>
+    <section id="work" style="width: 100%;">
+        <h1>WORK</h1>
+        <div class="line"></div>
+        <iframe class="work_iframe" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0" style="width: 80%; margin: 10px;"></iframe>
+
+    </section>
+
+    <hr>
+
+    <section id="writings">
+        <h1 style="f">WRITINGS</h1>
+        <div class="line"></div>
+        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a>
+        <br>
+        <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
+    </section>
+    <hr>
+
+    <section id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+        <!--ADD bootstrap classes to contact_1 div -->
+        <div class="contact_1">
+            <a href="mailto:my@gmail.com?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+            </a>
+
+            <a href="#">
+                <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a>
+        </div>
+
+        <!--
+    form code here
+    -->
+    </section>
+
+</body></html>
